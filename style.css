@@ -1,40 +1,55 @@
-#header{
-    text-align: center;
-    font-size: 35px;
-    margin-top: 100px;
-    height: 100px;
-    width: 100%;
+body {
+    margin-top: 250px;
+    background-color: #27272b;
     align-items: center;
+    color: white;
+    font-family: Arial;
 }
 
-#footer{
-    text-align: center;
-    font-size: 18px;
-    height: 35px;
-    width: 100%;
-    align-items: center;
-}
-
-.col {
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     text-align: center;
 }
 
-#list {
-    display:table;
-    margin: 0 auto;
-    text-align: left;
+.mainHeader {
+    display: flex;
+    justify-content: center;
 }
 
-#figure {
+.submission {
+    display: grid;
+    justify-content: center;
+    margin: 15px;
+}
+
+#hicontainer, #medcontainer, #lowcontainer {
+    display: grid;
+    width: 33vw;
+    height: fit-content;
+    font-size: 25px;
     font-weight: bold;
 }
 
-#image {
-    width: auto;
-    margin: 15px;
-    margin-top: 50px;
+.list {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
 }
 
-#caption {
+#highPriority, #medPriority, #lowPriority {
+    width: 33vw;
+}
+
+.buttonplacement{
+    display: flex;
+    justify-content: center;
+}
+
+.input{
     text-align: center;
+}
+
+button {
+    margin: 6px;
 }
