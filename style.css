@@ -1,55 +1,38 @@
 body {
-    margin-top: 250px;
-    background-color: #27272b;
-    align-items: center;
-    color: white;
-    font-family: Arial;
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c5c5d3
 }
 
-.main-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    text-align: center;
-}
-
-.mainHeader {
+h1 {
+    color: #c5c5d3;
     display: flex;
     justify-content: center;
 }
 
-.submission {
-    display: grid;
-    justify-content: center;
-    margin: 15px;
-}
-
-#hicontainer, #medcontainer, #lowcontainer {
-    display: grid;
-    width: 33vw;
-    height: fit-content;
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.list {
+button, input {
     display: flex;
     flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    margin-bottom: 10px;
 }
 
-#highPriority, #medPriority, #lowPriority {
-    width: 33vw;
-}
-
-.buttonplacement{
-    display: flex;
+.tilespace {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    text-align: center;
+    grid-gap: 25px;
     justify-content: center;
 }
 
-.input{
-    text-align: center;
+img {
+    height: 90%;
+    width: 100%;
+    z-index: 1;
 }
 
-button {
-    margin: 6px;
+p {
+    z-index: 2;
 }
