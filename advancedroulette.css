@@ -1,0 +1,95 @@
+@import url("background.css");
+
+body {
+    background-color: #0E0E0E;
+    color: #f0f0f0;
+    font-family: 'Righteous', cursive;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    display: flex; 
+    justify-content: center;
+    z-index: 1;
+    font-size: 46px;
+}
+
+.gameButton {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(202, 29, 29);
+    width: 15vw;
+    height: 7.5vh;
+    font-size: 35px;
+    max-width: 288px;
+    max-height: 71px;
+    min-height: 50px;
+    min-width: 175px;
+    overflow: nowrap;
+    align-items: center;
+}
+.gameButton:hover{
+    background-color: rgb(255, 35, 35);
+}
+.gameButton:active {
+    transform: scale(.95);
+}
+
+.gameDoc {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    z-index: 0;
+    max-width:15vw;
+    min-width: 225px;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+.gameDoc img {
+    width: 240px;
+    height: 90px;
+    border-radius: 5px;
+}
+.gameDoc img:hover{
+    transform: scale(1.1)
+}
+
+a:visited {
+    color: #f0f0f0;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#review, #store {
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.footer {
+    color: #f0f0f0;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    min-width: 200px;
+    height: 65px;
+    margin-top: auto;
+    text-align: center;
+    background-color: #0e0e0e;
+}
