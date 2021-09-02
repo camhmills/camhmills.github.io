@@ -1,6 +1,4 @@
-@media only screen and (min-width: 814px) {
-    
-}
+
     .background div {
         position: relative;
         filter: blur(1.75px);
@@ -385,7 +383,7 @@
     }
     }
 
-@media only screen and (max-width: 813px){
+@media only screen and (max-width: 812px){
     .background div {
         position: relative;
         filter: blur(1.75px);
