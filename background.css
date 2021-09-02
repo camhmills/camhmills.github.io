@@ -1,6 +1,7 @@
 
     .background div {
-        position: relative;
+        position: absolute;
+        display: block;
         filter: blur(1.75px);
         z-index: -1;
         width: 100vw;
