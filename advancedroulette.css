@@ -59,6 +59,7 @@ h1 {
     width: 240px;
     height: 90px;
     border-radius: 5px;
+    border: 1px solid #f0f0f0
 }
 .gameDoc img:hover{
     transform: scale(1.1)
