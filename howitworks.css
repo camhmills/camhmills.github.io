@@ -16,11 +16,6 @@ h1 {
     font-size: 46px;
 }
 
-.explanation{
-    display: flex;
-    flex-direction: column;
-}
-
 p {
     font-size: 20px;
 }
@@ -48,8 +43,9 @@ a:visited {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    flex-direction: column;
     text-align: center;
-    min-width: 300px;
+    min-width: 250px;
     max-width: 45vw;
 }
 
@@ -58,4 +54,25 @@ a:visited {
     display: block;
     filter: blur(1.5px);
     z-index: -1;
+}
+
+@media only screen and (max-width: 812px){
+    .explanation img {
+        transform: scale(.6);
+        margin-left: -75px !important;
+        
+    }
+    .footer {
+            color: #f0f0f0;
+            display: grid;
+            grid-template-columns: 200px;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            min-width: 200px;
+            height: auto;
+            margin-top: auto;
+            text-align: center;
+            background-color: #0e0e0e;
+    }
 }

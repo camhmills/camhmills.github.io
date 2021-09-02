@@ -12,8 +12,8 @@ body {
 h1 {
     display: flex; 
     justify-content: center;
-    z-index: 1;
     font-size: 46px;
+    text-align: center;
 }
 
 .gameButton {
@@ -29,12 +29,11 @@ h1 {
     font-size: 35px;
     max-width: 288px;
     max-height: 71px;
-    min-height: 50px;
+    min-height: 75px;
     min-width: 175px;
-    overflow: nowrap;
     align-items: center;
 }
-.gameButton:hover{
+.gameButton:hover {
     background-color: rgb(255, 35, 35);
 }
 .gameButton:active {
@@ -93,4 +92,20 @@ a:visited {
     margin-top: auto;
     text-align: center;
     background-color: #0e0e0e;
+}
+
+@media only screen and (max-width: 812px){
+    .footer {
+            color: #f0f0f0;
+            display: grid;
+            grid-template-columns: 200px;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            min-width: 200px;
+            height: auto;
+            margin-top: auto;
+            text-align: center;
+            background-color: #0e0e0e;
+    }
 }
