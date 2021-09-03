@@ -21,6 +21,10 @@ a:visited {
     color: #f0f0f0;
 }
 
+a:active {
+    color: #f0f0f0;
+}
+
 .footer {
     color: #f0f0f0;
     display: grid;
@@ -76,4 +80,9 @@ a:visited {
             text-align: center;
             background-color: #0e0e0e;
     }
+
+    .gameDoc img {
+        margin-left: -9px;
+    }
+    
 }

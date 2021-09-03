@@ -406,7 +406,7 @@
         top: -20%
     }
     .background div:nth-child(3){
-        left: 2%;
+        left: 5%;
         animation: fall 17s linear infinite;
         animation-delay: 0s;
         top: -20%
