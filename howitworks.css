@@ -49,13 +49,6 @@ a:visited {
     max-width: 45vw;
 }
 
-.background div {
-    position: absolute;
-    display: block;
-    filter: blur(1.5px);
-    z-index: -1;
-}
-
 @media only screen and (max-width: 812px){
     .explanation img {
         transform: scale(.6);
@@ -63,16 +56,16 @@ a:visited {
         
     }
     .footer {
-            color: #f0f0f0;
-            display: grid;
-            grid-template-columns: 200px;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            min-width: 200px;
-            height: auto;
-            margin-top: auto;
-            text-align: center;
-            background-color: #0e0e0e;
+        color: #f0f0f0;
+        display: grid;
+        grid-template-columns: 200px;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        min-width: 200px;
+        height: auto;
+        margin-top: auto;
+        text-align: center;
+        background-color: #0e0e0e;
     }
 }
