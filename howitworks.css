@@ -75,5 +75,9 @@ a:active {
     .gameDoc img {
         margin-left: -9px;
     }
+    .footer a {
+        margin-left: -16px;
+    }
+
 
 }
